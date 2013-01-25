@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A01EE5016B2D007006E7EA2 /* libGBCardStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01EE4A16B2CFEE006E7EA2 /* libGBCardStack.a */; };
+		8A01EEA416B2D22F006E7EA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A01EEA316B2D22F006E7EA2 /* Default-568h@2x.png */; };
 		8A05F17D14C5AF99004EC36F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A05F17C14C5AF99004EC36F /* QuartzCore.framework */; };
 		8A16033614C3329B000A5D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16033414C3329B000A5D5E /* MainViewController.m */; };
 		8A16033714C3329B000A5D5E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A16033514C3329B000A5D5E /* MainViewController.xib */; };
@@ -22,11 +24,28 @@
 		8AB7DFB214C32C34003BB140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7DFB014C32C34003BB140 /* InfoPlist.strings */; };
 		8AB7DFB414C32C34003BB140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DFB314C32C34003BB140 /* main.m */; };
 		8AB7DFB814C32C34003BB140 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DFB714C32C34003BB140 /* GBAppDelegate.m */; };
-		8AB7DFC114C32C82003BB140 /* GBCardStackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DFC014C32C82003BB140 /* GBCardStackController.m */; };
-		8AB7DFC414C32DEB003BB140 /* GBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DFC314C32DEB003BB140 /* GBCardViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8A01EE4916B2CFEE006E7EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A01EE2516B2CEF4006E7EA2;
+			remoteInfo = GBCardStack;
+		};
+		8A01EE4E16B2D000006E7EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A01EE2416B2CEF4006E7EA2;
+			remoteInfo = GBCardStack;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBCardStack.xcodeproj; path = ../GBCardStack/GBCardStack.xcodeproj; sourceTree = "<group>"; };
+		8A01EEA316B2D22F006E7EA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		8A05F17C14C5AF99004EC36F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8A16033314C3329B000A5D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8A16033414C3329B000A5D5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -50,10 +69,6 @@
 		8AB7DFB514C32C34003BB140 /* GBCardStack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBCardStack-Prefix.pch"; sourceTree = "<group>"; };
 		8AB7DFB614C32C34003BB140 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
 		8AB7DFB714C32C34003BB140 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
-		8AB7DFBF14C32C82003BB140 /* GBCardStackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBCardStackController.h; path = "Goonbee Cardstack/GBCardStackController.h"; sourceTree = "<group>"; };
-		8AB7DFC014C32C82003BB140 /* GBCardStackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBCardStackController.m; path = "Goonbee Cardstack/GBCardStackController.m"; sourceTree = "<group>"; };
-		8AB7DFC214C32DEB003BB140 /* GBCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBCardViewController.h; path = "Goonbee Cardstack/GBCardViewController.h"; sourceTree = "<group>"; };
-		8AB7DFC314C32DEB003BB140 /* GBCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBCardViewController.m; path = "Goonbee Cardstack/GBCardViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A01EE5016B2D007006E7EA2 /* libGBCardStack.a in Frameworks */,
 				8A05F17D14C5AF99004EC36F /* QuartzCore.framework in Frameworks */,
 				8AB7DFA814C32C34003BB140 /* UIKit.framework in Frameworks */,
 				8AB7DFAA14C32C34003BB140 /* Foundation.framework in Frameworks */,
@@ -71,22 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8AB7515514C469C5008DF838 /* GBCardStack */ = {
+		8A01EE4316B2CFEE006E7EA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AB7DFBF14C32C82003BB140 /* GBCardStackController.h */,
-				8AB7DFC014C32C82003BB140 /* GBCardStackController.m */,
-				8AB7DFC214C32DEB003BB140 /* GBCardViewController.h */,
-				8AB7DFC314C32DEB003BB140 /* GBCardViewController.m */,
+				8A01EE4A16B2CFEE006E7EA2 /* libGBCardStack.a */,
 			);
-			name = GBCardStack;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8AB7DF9814C32C33003BB140 = {
 			isa = PBXGroup;
 			children = (
-				8AEA61941534438B0069802F /* Demo */,
 				8AEA6192153443810069802F /* Library */,
+				8AEA61941534438B0069802F /* Demo */,
 				8AB7DFA614C32C34003BB140 /* Frameworks */,
 				8AB7DFA414C32C34003BB140 /* Products */,
 			);
@@ -111,25 +124,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8AB7DFAD14C32C34003BB140 /* Goonbee Cardstack */ = {
+		8AB7DFAD14C32C34003BB140 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				8AB7DFB614C32C34003BB140 /* GBAppDelegate.h */,
 				8AB7DFB714C32C34003BB140 /* GBAppDelegate.m */,
-				8AB7DFAE14C32C34003BB140 /* Supporting Files */,
 			);
+			name = AppDelegate;
 			path = "Goonbee Cardstack";
 			sourceTree = "<group>";
 		};
 		8AB7DFAE14C32C34003BB140 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A01EEA316B2D22F006E7EA2 /* Default-568h@2x.png */,
 				8AB7DFAF14C32C34003BB140 /* GBCardStack-Info.plist */,
 				8AB7DFB014C32C34003BB140 /* InfoPlist.strings */,
 				8AB7DFB314C32C34003BB140 /* main.m */,
 				8AB7DFB514C32C34003BB140 /* GBCardStack-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "Goonbee Cardstack";
 			sourceTree = "<group>";
 		};
 		8AB7DFBE14C32C44003BB140 /* View Controllers */ = {
@@ -155,7 +170,7 @@
 		8AEA6192153443810069802F /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				8AB7515514C469C5008DF838 /* GBCardStack */,
+				8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -163,8 +178,9 @@
 		8AEA61941534438B0069802F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8AB7DFAD14C32C34003BB140 /* AppDelegate */,
 				8AB7DFBE14C32C44003BB140 /* View Controllers */,
-				8AB7DFAD14C32C34003BB140 /* Goonbee Cardstack */,
+				8AB7DFAE14C32C34003BB140 /* Supporting Files */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -183,6 +199,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8A01EE4F16B2D000006E7EA2 /* PBXTargetDependency */,
 			);
 			name = Cardstack;
 			productName = "Goonbee Cardstack";
@@ -195,7 +212,7 @@
 		8AB7DF9A14C32C33003BB140 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Goonbee;
 			};
 			buildConfigurationList = 8AB7DF9D14C32C33003BB140 /* Build configuration list for PBXProject "GBCardStack Demo" */;
@@ -208,12 +225,28 @@
 			mainGroup = 8AB7DF9814C32C33003BB140;
 			productRefGroup = 8AB7DFA414C32C34003BB140 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A01EE4316B2CFEE006E7EA2 /* Products */;
+					ProjectRef = 8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8AB7DFA214C32C33003BB140 /* Cardstack */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8A01EE4A16B2CFEE006E7EA2 /* libGBCardStack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGBCardStack.a;
+			remoteRef = 8A01EE4916B2CFEE006E7EA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8AB7DFA114C32C33003BB140 /* Resources */ = {
@@ -225,6 +258,7 @@
 				8A16033D14C3370D000A5D5E /* LeftViewController.xib in Resources */,
 				8AB7515314C469B1008DF838 /* TopViewController.xib in Resources */,
 				8AB7515A14C46A55008DF838 /* RightViewController.xib in Resources */,
+				8A01EEA416B2D22F006E7EA2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,8 +271,6 @@
 			files = (
 				8AB7DFB414C32C34003BB140 /* main.m in Sources */,
 				8AB7DFB814C32C34003BB140 /* GBAppDelegate.m in Sources */,
-				8AB7DFC114C32C82003BB140 /* GBCardStackController.m in Sources */,
-				8AB7DFC414C32DEB003BB140 /* GBCardViewController.m in Sources */,
 				8A16033614C3329B000A5D5E /* MainViewController.m in Sources */,
 				8A16033C14C3370D000A5D5E /* LeftViewController.m in Sources */,
 				8AB7515214C469B1008DF838 /* TopViewController.m in Sources */,
@@ -247,6 +279,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A01EE4F16B2D000006E7EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBCardStack;
+			targetProxy = 8A01EE4E16B2D000006E7EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8AB7DFB014C32C34003BB140 /* InfoPlist.strings */ = {
@@ -280,7 +320,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -298,8 +340,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
