@@ -6,9 +6,11 @@
 //  Copyright (c) 2012 Goonbee. All rights reserved.
 //
 
-#import "GBCardViewController.h"
+@interface MainViewController : UIViewController
 
-@interface MainViewController : GBCardViewController
+@property (weak, nonatomic) IBOutlet UIButton *leftButton;
+@property (weak, nonatomic) IBOutlet UIButton *topButton;
+@property (weak, nonatomic) IBOutlet UIButton *rightButton;
 
 - (IBAction)showLeft:(id)sender;
 - (IBAction)showRight:(id)sender;

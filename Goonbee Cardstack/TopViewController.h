@@ -6,9 +6,7 @@
 //  Copyright (c) 2012 Goonbee. All rights reserved.
 //
 
-#import "GBCardViewController.h"
-
-@interface TopViewController : GBCardViewController
+@interface TopViewController : UIViewController
 
 - (IBAction)showMain:(id)sender;
 @end

@@ -14,6 +14,13 @@
 		8A16033714C3329B000A5D5E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A16033514C3329B000A5D5E /* MainViewController.xib */; };
 		8A16033C14C3370D000A5D5E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16033A14C3370D000A5D5E /* LeftViewController.m */; };
 		8A16033D14C3370D000A5D5E /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A16033B14C3370D000A5D5E /* LeftViewController.xib */; };
+		8A7D64CD16B95C7000D6C676 /* libGBAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64CC16B95C7000D6C676 /* libGBAnalytics.a */; };
+		8A7D64CF16B95C7200D6C676 /* libGBToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64CE16B95C7200D6C676 /* libGBToolbox.a */; };
+		8A7D64D116B95C8600D6C676 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64D016B95C8600D6C676 /* SystemConfiguration.framework */; };
+		8A7D64D316B95C9100D6C676 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64D216B95C9100D6C676 /* libz.dylib */; };
+		8A7D64D516B95C9600D6C676 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64D416B95C9600D6C676 /* CoreData.framework */; };
+		8A7D64D716B95CA800D6C676 /* BugSense-iOS.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */; };
+		8A7D64D816B95CB000D6C676 /* BugSense-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */; };
 		8AB7515214C469B1008DF838 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7515014C469B1008DF838 /* TopViewController.m */; };
 		8AB7515314C469B1008DF838 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7515114C469B1008DF838 /* TopViewController.xib */; };
 		8AB7515914C46A55008DF838 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7515714C46A55008DF838 /* RightViewController.m */; };
@@ -53,6 +60,12 @@
 		8A16033914C3370D000A5D5E /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		8A16033A14C3370D000A5D5E /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		8A16033B14C3370D000A5D5E /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		8A7D64CC16B95C7000D6C676 /* libGBAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGBAnalytics.a; path = "../GBAnalytics/build/Release-iphoneos/libGBAnalytics.a"; sourceTree = "<group>"; };
+		8A7D64CE16B95C7200D6C676 /* libGBToolbox.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGBToolbox.a; path = "../GBToolbox/build/Release-iphoneos/libGBToolbox.a"; sourceTree = "<group>"; };
+		8A7D64D016B95C8600D6C676 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A7D64D216B95C9100D6C676 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8A7D64D416B95C9600D6C676 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BugSense-iOS.framework"; path = "../GBAnalytics/GBAnalytics/BugSense-iOS.framework"; sourceTree = "<group>"; };
 		8AB7514F14C469B1008DF838 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		8AB7515014C469B1008DF838 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		8AB7515114C469B1008DF838 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
@@ -76,9 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7D64D516B95C9600D6C676 /* CoreData.framework in Frameworks */,
+				8A7D64D316B95C9100D6C676 /* libz.dylib in Frameworks */,
+				8A7D64D116B95C8600D6C676 /* SystemConfiguration.framework in Frameworks */,
+				8A7D64CF16B95C7200D6C676 /* libGBToolbox.a in Frameworks */,
+				8A7D64CD16B95C7000D6C676 /* libGBAnalytics.a in Frameworks */,
 				8A01EE5016B2D007006E7EA2 /* libGBCardStack.a in Frameworks */,
 				8A05F17D14C5AF99004EC36F /* QuartzCore.framework in Frameworks */,
 				8AB7DFA814C32C34003BB140 /* UIKit.framework in Frameworks */,
+				8A7D64D816B95CB000D6C676 /* BugSense-iOS.framework in Frameworks */,
 				8AB7DFAA14C32C34003BB140 /* Foundation.framework in Frameworks */,
 				8AB7DFAC14C32C34003BB140 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -116,6 +135,12 @@
 		8AB7DFA614C32C34003BB140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A7D64D416B95C9600D6C676 /* CoreData.framework */,
+				8A7D64D216B95C9100D6C676 /* libz.dylib */,
+				8A7D64D016B95C8600D6C676 /* SystemConfiguration.framework */,
+				8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */,
+				8A7D64CE16B95C7200D6C676 /* libGBToolbox.a */,
+				8A7D64CC16B95C7000D6C676 /* libGBAnalytics.a */,
 				8A05F17C14C5AF99004EC36F /* QuartzCore.framework */,
 				8AB7DFA714C32C34003BB140 /* UIKit.framework */,
 				8AB7DFA914C32C34003BB140 /* Foundation.framework */,
@@ -259,6 +284,7 @@
 				8AB7515314C469B1008DF838 /* TopViewController.xib in Resources */,
 				8AB7515A14C46A55008DF838 /* RightViewController.xib in Resources */,
 				8A01EEA416B2D22F006E7EA2 /* Default-568h@2x.png in Resources */,
+				8A7D64D716B95CA800D6C676 /* BugSense-iOS.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +334,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "../**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -322,6 +349,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "../**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "../**";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
@@ -335,6 +363,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -342,6 +371,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "../**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "../**";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;

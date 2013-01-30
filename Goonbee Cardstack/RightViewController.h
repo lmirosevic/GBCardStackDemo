@@ -6,9 +6,7 @@
 //  Copyright (c) 2012 Goonbee. All rights reserved.
 //
 
-#import "GBCardViewController.h"
-
-@interface RightViewController : GBCardViewController
+@interface RightViewController : UIViewController
 
 - (IBAction)showMain:(id)sender;
 @end

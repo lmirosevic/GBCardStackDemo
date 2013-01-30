@@ -58,13 +58,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
     
-//    NSLog(@"viewdidload");
+    [self.slideableViews addObject:self.leftButton];
+    [self.slideableViews addObject:self.topButton];
+    [self.slideableViews addObject:self.rightButton];
 }
 
 - (void)viewDidUnload
 {
+    [self setLeftButton:nil];
+    [self setTopButton:nil];
+    [self setRightButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
