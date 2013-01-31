@@ -6,7 +6,7 @@ Demo project for GBCardStack
 Library
 ------------
 
-See: www.github.com/lmirosevic/GBCardStack
+See: [github.com/lmirosevic/GBCardStack](https://github.com/lmirosevic/GBCardStack)
 
 Copyright & License
 ------------
