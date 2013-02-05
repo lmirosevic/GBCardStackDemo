@@ -41,7 +41,7 @@
 			remoteGlobalIDString = 8A01EE2516B2CEF4006E7EA2;
 			remoteInfo = GBCardStack;
 		};
-		8A01EE4E16B2D000006E7EA2 /* PBXContainerItemProxy */ = {
+		8ACE94E216C1260E00527E0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A01EE4216B2CFEE006E7EA2 /* GBCardStack.xcodeproj */;
 			proxyType = 1;
@@ -60,12 +60,12 @@
 		8A16033914C3370D000A5D5E /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		8A16033A14C3370D000A5D5E /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		8A16033B14C3370D000A5D5E /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
-		8A7D64CC16B95C7000D6C676 /* libGBAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGBAnalytics.a; path = "../GBAnalytics/build/Release-iphoneos/libGBAnalytics.a"; sourceTree = "<group>"; };
-		8A7D64CE16B95C7200D6C676 /* libGBToolbox.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGBToolbox.a; path = "../GBToolbox/build/Release-iphoneos/libGBToolbox.a"; sourceTree = "<group>"; };
+		8A7D64CC16B95C7000D6C676 /* libGBAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGBAnalytics.a; path = "../GBAnalytics/build/Release-iphoneos/libGBAnalytics.a"; sourceTree = "<group>"; };
+		8A7D64CE16B95C7200D6C676 /* libGBToolbox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGBToolbox.a; path = "../GBToolbox/build/Release-iphoneos/libGBToolbox.a"; sourceTree = "<group>"; };
 		8A7D64D016B95C8600D6C676 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8A7D64D216B95C9100D6C676 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8A7D64D416B95C9600D6C676 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BugSense-iOS.framework"; path = "../GBAnalytics/GBAnalytics/BugSense-iOS.framework"; sourceTree = "<group>"; };
+		8A7D64D616B95CA800D6C676 /* BugSense-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "BugSense-iOS.framework"; path = "../GBAnalytics/GBAnalytics/BugSense-iOS.framework"; sourceTree = "<group>"; };
 		8AB7514F14C469B1008DF838 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		8AB7515014C469B1008DF838 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		8AB7515114C469B1008DF838 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8A01EE4F16B2D000006E7EA2 /* PBXTargetDependency */,
+				8ACE94E316C1260E00527E0D /* PBXTargetDependency */,
 			);
 			name = Cardstack;
 			productName = "Goonbee Cardstack";
@@ -307,10 +307,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A01EE4F16B2D000006E7EA2 /* PBXTargetDependency */ = {
+		8ACE94E316C1260E00527E0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GBCardStack;
-			targetProxy = 8A01EE4E16B2D000006E7EA2 /* PBXContainerItemProxy */;
+			targetProxy = 8ACE94E216C1260E00527E0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
