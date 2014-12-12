@@ -20,7 +20,8 @@
 
 @interface GBAppDelegate ()
 
-@property (strong, nonatomic) GBCardStackController *cardStackController;
+@property (strong, nonatomic) GBCardStackController         *cardStackController;
+@property (strong, nonatomic) GBCardStackAnalyticsModule    *analyticsModule;
 
 @end
 
@@ -39,6 +40,10 @@ EnableAutolayoutDebugHotkeyWithCrash(YES)
     self.cardStackController.rightCard = [RightViewController new];
     self.cardStackController.bottomCard = [PlainViewController new];
 
+    // Add an OPTIONAL delegate (this one sends analytics events via GBAnalytics for which cards are shown, and how they are accessed... useful for finding out how your users are using your app).
+    self.analyticsModule = [GBCardStackAnalyticsModule new];
+    self.cardStackController.delegate = self.analyticsModule;
+    
     // Create our window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.cardStackController;
