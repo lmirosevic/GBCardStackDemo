@@ -10,53 +10,15 @@
 
 #import "GBCardStackController.h"
 
+@interface MainViewController () <UINavigationBarDelegate>
+
+@end
+
 @implementation MainViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+#pragma mark - Life
 
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
-
--(void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    
-//    NSLog(@"viewwilldisappear");
-}
-
--(void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    
-//    NSLog(@"viewdiddisappear");
-}
-
--(void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    
-//    NSLog(@"viewwillappear");
-}
-
--(void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-//    NSLog(@"viewdidappear main");
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     [self.slideableViews addObject:self.leftButton];
@@ -64,32 +26,29 @@
     [self.slideableViews addObject:self.rightButton];
 }
 
-- (void)viewDidUnload
-{
-    [self setLeftButton:nil];
-    [self setTopButton:nil];
-    [self setRightButton:nil];
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+#pragma mark - Actions
+
 - (IBAction)showLeft:(id)sender {
-    [self.cardStackController slideCard:GBCardViewLeftCard animated:YES];
+    [self.cardStackController showCard:GBCardStackCardTypeLeft animated:YES];
 }
 
 - (IBAction)showRight:(id)sender {
-    [self.cardStackController slideCard:GBCardViewRightCard animated:YES];
+    [self.cardStackController showCard:GBCardStackCardTypeRight animated:YES];
 }
 
 - (IBAction)showTop:(id)sender {
-    [self.cardStackController slideCard:GBCardViewTopCard animated:YES];
+    [self.cardStackController showCard:GBCardStackCardTypeTop animated:YES];
+}
+
+#pragma mark - UINavigationBarDelegate
+
+- (UIBarPosition)positionForBar:(id <UIBarPositioning>)bar {
+    return UIBarPositionTopAttached;
 }
 
 @end

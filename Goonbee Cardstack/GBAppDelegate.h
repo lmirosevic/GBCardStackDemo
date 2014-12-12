@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class GBCardStackController;
-
 @interface GBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) GBCardStackController *cardStackController;
 
 @end
